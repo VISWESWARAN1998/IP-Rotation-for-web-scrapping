@@ -35,23 +35,23 @@ class IP:
         self.__google = google
     def set_ip_port(self):
         if self.__apiKey != "":
-            self.__query+"&api_key="+self.api_key
+            self.__query+="&api_key="+self.api_key
         if self.__cookies == False:
-            self.__query+"&cookies=false"
+            self.__query+="&cookies=false"
         if self.__userAgent == True:
-            self.__query+"&user-agent=true"
+            self.__query+="&user-agent=true"
         if self.__https == True:
-            self.__query+"&supportsHttps=true"
+            self.__query+="&supportsHttps=true"
         if self.__protocol != "":
-            self.__query+"&protocol="+self.__protocol
+            self.__query+="&protocol="+self.__protocol
         if self.__port!=0:
             self.__query+="&port="+str(self.__port)
         if self.__country!="":
-            self.__query+"&country="+self.__country
+            self.__query+="&country="+self.__country
         if self.__amazon==True:
-            self.__query+"&websites=amazon"
+            self.__query+="&websites=amazon"
         if self.__amazon==True:
-            self.__query+"&websites=google"
+            self.__query+="&websites=google"
         return self.__query
     def get_ip(self):
         r = requests.get(self.__query).json()

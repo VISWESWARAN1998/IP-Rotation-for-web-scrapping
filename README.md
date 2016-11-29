@@ -47,3 +47,45 @@ settings.Amazon(True)
   (or)
 settings.Google(True)
 
+
+# once the indiviual settings is done then configure the ip settings:
+
+settings.set_ip_port()
+
+# To get the IP
+
+IP address will be returned in string like ip:port
+
+ip = settings.get_ip()
+
+# Since free account is limited to 200 we can get how many ip's we have used by:
+
+count = settings.get_exhaust()
+
+# Example (getting IP with Port 80 only):
+
+from Rotator import IP
+settings = IP()
+settings.set_port(80)
+settings.set_ip_port()
+for i in range(10):
+    print(settings.get_ip())
+    
+    
+#output:
+xxx.52.176.129:80
+xxx.80.21.109:80
+xxx.88.67.83:80
+xxx.52.72.58:80
+120.xx.72.53:80
+111.xx.109.27:80
+124.xx.67.19:80
+xxx.98.152.138:80
+212.xx.21.109:80
+177.221.42.xx:80
+
+
+
+
+
+

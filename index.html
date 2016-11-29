@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Ip-rotation-for-web-scrapping by VISWESWARAN1998</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Ip-rotation-for-web-scrapping</h1>
+      <h2 class="project-tagline">At each requests you will get a different IP (Public) </h2>
+      <a href="https://github.com/VISWESWARAN1998/IP-Rotation-for-web-scrapping" class="btn">View on GitHub</a>
+      <a href="https://github.com/VISWESWARAN1998/IP-Rotation-for-web-scrapping/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/VISWESWARAN1998/IP-Rotation-for-web-scrapping/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="ip-roatation-for-web-scrapping" class="anchor" href="#ip-roatation-for-web-scrapping" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>IP-Roatation-for-web-scrapping</h1>
+
+<h1>
+<a id="purpouse" class="anchor" href="#purpouse" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Purpouse:</h1>
+
+<p>At each request while scrapping you will end up with different IP address, This will prevent you getting backlisted</p>
+
+<h1>
+<a id="how-to-use" class="anchor" href="#how-to-use" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use:</h1>
+
+<h1>
+<a id="first-of-all-you-must-learn-about-2-different-accounts" class="anchor" href="#first-of-all-you-must-learn-about-2-different-accounts" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>First of all you must learn about 2 different accounts:</h1>
+
+<h1>
+<a id="free" class="anchor" href="#free" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Free:</h1>
+
+<ol>
+<li>Optimum speed</li>
+<li>Maximum of 200 ips
+# API:  More IP with High Speed</li>
+</ol>
+
+<h1>
+<a id="how-to-use-1" class="anchor" href="#how-to-use-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use:</h1>
+
+<h1>
+<a id="use-this-import-statement" class="anchor" href="#use-this-import-statement" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>use this import statement:</h1>
+
+<p>from Rotator import IP</p>
+
+<p>settings = IP()</p>
+
+<h1>
+<a id="setting-apiif-free-usage-leave-this" class="anchor" href="#setting-apiif-free-usage-leave-this" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>setting API(If free usage leave this):</h1>
+
+<pre><code>settings.set_api("your api key")
+</code></pre>
+
+<h1>
+<a id="disable-cookies" class="anchor" href="#disable-cookies" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Disable cookies:</h1>
+
+<p>settings.set_cookies(False)</p>
+
+<h1>
+<a id="set-https-support" class="anchor" href="#set-https-support" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Set HTTPS support:</h1>
+
+<p>settings.is_https(True)</p>
+
+<h1>
+<a id="provide-user-agent-support" class="anchor" href="#provide-user-agent-support" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Provide user agent support:</h1>
+
+<p>settings.is_user_agent(True)</p>
+
+<h1>
+<a id="set-protocol-httpsocks5" class="anchor" href="#set-protocol-httpsocks5" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Set protocol http/socks5:</h1>
+
+<p>settings.set_protocol("http")</p>
+
+<h1>
+<a id="you-can-set-the-port-no-too" class="anchor" href="#you-can-set-the-port-no-too" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>You can set the port no too:</h1>
+
+<p>settings.set_port(portno)</p>
+
+<h1>
+<a id="sort-ips-from-specific-country" class="anchor" href="#sort-ips-from-specific-country" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sort IP's from specific country:</h1>
+
+<p>settings.set_country("US")       ==&gt; This is give only Proxies from USA </p>
+
+<h1>
+<a id="if-you-have-to-scrape-amazon-or-google-then-this-setting-will-make-it-better" class="anchor" href="#if-you-have-to-scrape-amazon-or-google-then-this-setting-will-make-it-better" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>If you have to scrape Amazon or Google then this setting will make it better:</h1>
+
+<p>settings.Amazon(True)
+  (or)
+settings.Google(True)</p>
+
+<h1>
+<a id="once-the-indiviual-settings-is-done-then-configure-the-ip-settings" class="anchor" href="#once-the-indiviual-settings-is-done-then-configure-the-ip-settings" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>once the indiviual settings is done then configure the ip settings:</h1>
+
+<p>settings.set_ip_port()</p>
+
+<h1>
+<a id="to-get-the-ip" class="anchor" href="#to-get-the-ip" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>To get the IP</h1>
+
+<p>IP address will be returned in string like ip:port</p>
+
+<p>ip = settings.get_ip()</p>
+
+<h1>
+<a id="since-free-account-is-limited-to-200-we-can-get-how-many-ips-we-have-used-by" class="anchor" href="#since-free-account-is-limited-to-200-we-can-get-how-many-ips-we-have-used-by" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Since free account is limited to 200 we can get how many ip's we have used by:</h1>
+
+<p>count = settings.get_exhaust()</p>
+
+<h1>
+<a id="example-getting-ip-with-port-80-only" class="anchor" href="#example-getting-ip-with-port-80-only" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example (getting IP with Port 80 only):</h1>
+
+<p>from Rotator import IP</p>
+
+<p>settings = IP()</p>
+
+<p>settings.set_port(80)</p>
+
+<p>settings.set_ip_port()</p>
+
+<p>for i in range(10):</p>
+
+<p>print(settings.get_ip())</p>
+
+<h1>
+<a id="output" class="anchor" href="#output" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>output:</h1>
+
+<p>xxx.52.176.129:80</p>
+
+<p>xxx.80.21.109:80</p>
+
+<p>xxx.88.67.83:80</p>
+
+<p>xxx.52.72.58:80</p>
+
+<p>120.xx.72.53:80</p>
+
+<p>111.xx.109.27:80</p>
+
+<p>124.xx.67.19:80</p>
+
+<p>xxx.98.152.138:80</p>
+
+<p>212.xx.21.109:80</p>
+
+<p>177.221.42.xx:80</p>
+
+<h1>
+<a id="further-note" class="anchor" href="#further-note" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Further note:</h1>
+
+<p>Proxies taken from <a href="http://gimmeproxy.com/">http://gimmeproxy.com/</a></p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/VISWESWARAN1998/IP-Rotation-for-web-scrapping">Ip-rotation-for-web-scrapping</a> is maintained by <a href="https://github.com/VISWESWARAN1998">VISWESWARAN1998</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
